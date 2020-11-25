@@ -28,7 +28,7 @@ export const Home = () => {
               <div className="watch-icon">
                 <i className="fa fa-play-circle"></i>
               </div>
-              <span className="watch-text">Watch Video</span>
+              <div className="watch-text">Watch Video</div>
             </div>
             <div className="left-social">
               <ul>

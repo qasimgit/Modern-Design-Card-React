@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Unica+One&display=swap");
 
 :root {
   --color: rgba(55, 66, 250, 1);
@@ -73,8 +74,57 @@ body {
 
 .left-t {
   text-transform: uppercase;
+  font-family: "Unica One", cursive;
+  font-size: 30px;
+  letter-spacing: 1px;
+  margin-left: 10px;
+  margin-top: 50px;
+  position: relative;
 }
 
+.left-bg p {
+  margin-top: 50px;
+  font-size: 12px;
+  font-weight: 300;
+  padding: 0px 20px 0px 10px;
+  line-height: 15px;
+  letter-spacing: 1px;
+  position: relative;
+}
+.watch {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  margin-left: 10px;
+}
+
+.watch-text {
+  margin-left: 10px;
+}
+.watch-icon {
+  align-self: 35px;
+  color: #eee;
+  font-size: 35px;
+}
+
+.left-social {
+  width: 100%;
+  background: var(--color);
+  padding: 1px 0px;
+  position: absolute;
+  left: 0;
+  bottom: 30px;
+}
+
+.left-social ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 100px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
 .right {
   width: 85%;
+  padding: 20px;
 }
